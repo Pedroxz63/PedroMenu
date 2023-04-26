@@ -142,7 +142,7 @@ FarmButton.BorderSizePixel = 0
 FarmButton.Position = UDim2.new(0.683675528, 0, 0.0445266142, 0)
 FarmButton.Size = UDim2.new(0, 74, 0, 17)
 FarmButton.Font = Enum.Font.Roboto
-FarmButton.Text = "Farme(BETA)"
+FarmButton.Text = "Farm"
 FarmButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 FarmButton.TextScaled = true
 FarmButton.TextSize = 14.000
@@ -510,7 +510,7 @@ Killallacs2Button.BorderColor3 = Color3.fromRGB(85, 255, 255)
 Killallacs2Button.Position = UDim2.new(-0.00375581114, 0, 0.506109595, 0)
 Killallacs2Button.Size = UDim2.new(0, 213, 0, 16)
 Killallacs2Button.Font = Enum.Font.DenkOne
-Killallacs2Button.Text = "Matar todos - Risco"
+Killallacs2Button.Text = "Matar todos 1 - Risco"
 Killallacs2Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 Killallacs2Button.TextSize = 14.000
 
@@ -521,7 +521,7 @@ Crashacs2Button.BorderColor3 = Color3.fromRGB(85, 255, 255)
 Crashacs2Button.Position = UDim2.new(-0.00375581114, 0, 0.59960556, 0)
 Crashacs2Button.Size = UDim2.new(0, 213, 0, 16)
 Crashacs2Button.Font = Enum.Font.DenkOne
-Crashacs2Button.Text = "Crash Player"
+Crashacs2Button.Text = "Crash All 3.0"
 Crashacs2Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 Crashacs2Button.TextSize = 14.000
 
@@ -545,7 +545,7 @@ Crashacs1Button.BorderColor3 = Color3.fromRGB(85, 255, 255)
 Crashacs1Button.Position = UDim2.new(1.11361516, 0, 0.270337224, 0)
 Crashacs1Button.Size = UDim2.new(0, 213, 0, 16)
 Crashacs1Button.Font = Enum.Font.DenkOne
-Crashacs1Button.Text = "Crash Player"
+Crashacs1Button.Text = "Crash All 2.0"
 Crashacs1Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 Crashacs1Button.TextSize = 14.000
 
@@ -556,7 +556,7 @@ KillallButtonacs1Button.BorderColor3 = Color3.fromRGB(85, 255, 255)
 KillallButtonacs1Button.Position = UDim2.new(1.11361516, 0, 0.176841259, 0)
 KillallButtonacs1Button.Size = UDim2.new(0, 213, 0, 16)
 KillallButtonacs1Button.Font = Enum.Font.DenkOne
-KillallButtonacs1Button.Text = "Matar Todos - Risco"
+KillallButtonacs1Button.Text = "Matar Todos 2 - Risco"
 KillallButtonacs1Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 KillallButtonacs1Button.TextSize = 14.000
 
@@ -589,7 +589,7 @@ Explodeacs1Button.BorderColor3 = Color3.fromRGB(85, 255, 255)
 Explodeacs1Button.Position = UDim2.new(1.11361516, 0, 0.363833129, 0)
 Explodeacs1Button.Size = UDim2.new(0, 213, 0, 16)
 Explodeacs1Button.Font = Enum.Font.DenkOne
-Explodeacs1Button.Text = "Explode"
+Explodeacs1Button.Text = "Explodir Geral"
 Explodeacs1Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 Explodeacs1Button.TextSize = 14.000
 
@@ -631,7 +631,7 @@ ToolTXT_2.BackgroundTransparency = 1.000
 ToolTXT_2.Position = UDim2.new(1.55615318, 0, 0.508020639, 0)
 ToolTXT_2.Size = UDim2.new(0, 69, 0, 14)
 ToolTXT_2.Font = Enum.Font.DenkOne
-ToolTXT_2.Text = "Tool Pintar"
+ToolTXT_2.Text = "Tool Pinta"
 ToolTXT_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 ToolTXT_2.TextScaled = true
 ToolTXT_2.TextSize = 14.000
@@ -834,7 +834,7 @@ local function LPFKPF_fake_script() -- AbasArmas.LocalScript
 		--// Variables
 	
 		local LocalPlayer = Players.LocalPlayer
-		local Title = "Dreck Modz"
+		local Title = "Pedroxz Modz"
 		local FileNames = {"Aimbot", "Configuration.json", "Drawing.json"}
 		local Typing, Running, Animation, RequiredDistance, ServiceConnections = false, false, nil, 2000, {}
 	
@@ -1161,7 +1161,7 @@ local function LPFKPF_fake_script() -- AbasArmas.LocalScript
 		--// Support Check
 	
 		if not Drawing or not getgenv then
-			SendNotification(Title, "Your exploit does not support this script", 3); return
+			SendNotification(Title, "Seu exploit não suporta o pedroxz menu", 3); return
 		end
 	
 		--// Reload On Teleport
