@@ -142,7 +142,7 @@ FarmButton.BorderSizePixel = 0
 FarmButton.Position = UDim2.new(0.683675528, 0, 0.0445266142, 0)
 FarmButton.Size = UDim2.new(0, 74, 0, 17)
 FarmButton.Font = Enum.Font.Roboto
-FarmButton.Text = "Farm"
+FarmButton.Text = "Bypass"
 FarmButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 FarmButton.TextScaled = true
 FarmButton.TextSize = 14.000
@@ -419,7 +419,7 @@ autojjsButton.BorderColor3 = Color3.fromRGB(85, 255, 255)
 autojjsButton.Position = UDim2.new(-0.00375581114, 0, 0.0670852065, 0)
 autojjsButton.Size = UDim2.new(0, 213, 0, 16)
 autojjsButton.Font = Enum.Font.DenkOne
-autojjsButton.Text = "Auto JJs - EB"
+autojjsButton.Text = "Bypass(Beta)"
 autojjsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 autojjsButton.TextSize = 14.000
 
@@ -1331,11 +1331,46 @@ local function AGEGZPL_fake_script() -- AbasFarm.LocalScript
 	
 	Button.MouseButton1Down:Connect(function()
 		Button.BackgroundColor3 = (Button.Visible and Color3.fromRGB(38, 112, 112)) or Color3.fromRGB(72, 72, 72)
-		
-		_G.Jump = false-- se quiser desativar o pulo deixa isso como false
-		loadstring(game:HttpGet(("https://raw.githubusercontent.com/GameLeaks2/RobloxScripts/main/AUTO-JJS%20ALL%20EB.lua"),true))()
-		
+--// Variables
+
+local Players = game:GetService("Players")
+local OldNameCall = nil
+
+--// Global Variables
+
+getgenv().SendNotifications = true -- Set to true if you want to get notified regularly.
+
+--// Anti Kick Hook
+
+OldNameCall = hookmetamethod(game, "__namecall", function(Self, ...)
+    local NameCallMethod = getnamecallmethod()
+
+    if tostring(string.lower(NameCallMethod)) == "kick" then
+        if getgenv().SendNotifications == true then
+            game:GetService("StarterGui"):SetCore("SendNotification", {
+                Title = "Pedroxz Delevoper",
+                Text = "You almost got kicked! Successfully prevented.",
+                Icon = "rbxassetid://6238540373",
+                Duration = 3,
+            })
+        end
+        
+        return nil
+    end
+    
+    return OldNameCall(Self, ...)
+end)
+
+if getgenv().SendNotifications == true then
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Pedroxz Delevoper",
+        Text = "Anti-Kick script loaded",
+        Icon = "rbxassetid://6238537240",
+        Duration = 5,
+    })
+end
 	end)
+	
 end
 coroutine.wrap(AGEGZPL_fake_script)()
 local function MNUUFEZ_fake_script() -- AbasMisc.LocalScript 
