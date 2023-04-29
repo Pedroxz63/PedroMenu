@@ -126,7 +126,7 @@ MiscButton.BorderSizePixel = 0
 MiscButton.Position = UDim2.new(0.515233874, 0, 0.0445266142, 0)
 MiscButton.Size = UDim2.new(0, 74, 0, 17)
 MiscButton.Font = Enum.Font.Roboto
-MiscButton.Text = "Misc"
+MiscButton.Text = "Troll"
 MiscButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 MiscButton.TextScaled = true
 MiscButton.TextSize = 14.000
@@ -419,7 +419,7 @@ autojjsButton.BorderColor3 = Color3.fromRGB(85, 255, 255)
 autojjsButton.Position = UDim2.new(-0.00375581114, 0, 0.0670852065, 0)
 autojjsButton.Size = UDim2.new(0, 213, 0, 16)
 autojjsButton.Font = Enum.Font.DenkOne
-autojjsButton.Text = "Bypass(Beta)"
+autojjsButton.Text = "Bypass(ante-kick)"
 autojjsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 autojjsButton.TextSize = 14.000
 
