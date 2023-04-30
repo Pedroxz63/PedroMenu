@@ -178,7 +178,7 @@ TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(0.260092437, 0, 0.141420126, 0)
 TextLabel.Size = UDim2.new(0, 233, 0, 21)
 TextLabel.Font = Enum.Font.DenkOne
-TextLabel.Text = "Pedroxz Menu 3.0"
+TextLabel.Text = "Pedroxz Menu Roleplay 3.0"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -366,7 +366,7 @@ InfiniteYieldButton.BorderColor3 = Color3.fromRGB(85, 255, 255)
 InfiniteYieldButton.Position = UDim2.new(-0.00375581114, 0, 0.176841304, 0)
 InfiniteYieldButton.Size = UDim2.new(0, 213, 0, 16)
 InfiniteYieldButton.Font = Enum.Font.DenkOne
-InfiniteYieldButton.Text = "infinite yield "
+InfiniteYieldButton.Text = "infinite yield.lua "
 InfiniteYieldButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 InfiniteYieldButton.TextSize = 14.000
 
@@ -399,7 +399,7 @@ templehookButton.BorderColor3 = Color3.fromRGB(85, 255, 255)
 templehookButton.Position = UDim2.new(-0.00375581114, 0, 0.502044559, 0)
 templehookButton.Size = UDim2.new(0, 213, 0, 16)
 templehookButton.Font = Enum.Font.DenkOne
-templehookButton.Text = "Hub - Templehook Beta"
+templehookButton.Text = "Hub - Templehook Beta.lua"
 templehookButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 templehookButton.TextSize = 14.000
 
@@ -521,7 +521,7 @@ Crashacs2Button.BorderColor3 = Color3.fromRGB(85, 255, 255)
 Crashacs2Button.Position = UDim2.new(-0.00375581114, 0, 0.59960556, 0)
 Crashacs2Button.Size = UDim2.new(0, 213, 0, 16)
 Crashacs2Button.Font = Enum.Font.DenkOne
-Crashacs2Button.Text = "Crash All 3.0"
+Crashacs2Button.Text = "Crashar Geral 3.0"
 Crashacs2Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 Crashacs2Button.TextSize = 14.000
 
@@ -545,7 +545,7 @@ Crashacs1Button.BorderColor3 = Color3.fromRGB(85, 255, 255)
 Crashacs1Button.Position = UDim2.new(1.11361516, 0, 0.270337224, 0)
 Crashacs1Button.Size = UDim2.new(0, 213, 0, 16)
 Crashacs1Button.Font = Enum.Font.DenkOne
-Crashacs1Button.Text = "Crash All 2.0"
+Crashacs1Button.Text = "Crashar Geral 2.0"
 Crashacs1Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 Crashacs1Button.TextSize = 14.000
 
@@ -1364,7 +1364,7 @@ end)
 if getgenv().SendNotifications == true then
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Pedroxz Delevoper",
-        Text = "Anti-Kick script loaded",
+        Text = "Anti-Kick Script Carregado",
         Icon = "rbxassetid://6238537240",
         Duration = 5,
     })
