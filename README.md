@@ -178,7 +178,7 @@ TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(0.260092437, 0, 0.141420126, 0)
 TextLabel.Size = UDim2.new(0, 233, 0, 21)
 TextLabel.Font = Enum.Font.DenkOne
-TextLabel.Text = "Pedroxz Menu Roleplay 3.0"
+TextLabel.Text = "Pedroxz Menu RP 3.0"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -218,7 +218,7 @@ HubArmasButton.BorderColor3 = Color3.fromRGB(85, 255, 255)
 HubArmasButton.Position = UDim2.new(-0.00375581114, 0, 0.0670852065, 0)
 HubArmasButton.Size = UDim2.new(0, 213, 0, 16)
 HubArmasButton.Font = Enum.Font.DenkOne
-HubArmasButton.Text = "Hub Armas - acs 1.7.5"
+HubArmasButton.Text = "Menu Armas - acs 1.7.5"
 HubArmasButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 HubArmasButton.TextSize = 14.000
 
@@ -399,7 +399,7 @@ templehookButton.BorderColor3 = Color3.fromRGB(85, 255, 255)
 templehookButton.Position = UDim2.new(-0.00375581114, 0, 0.502044559, 0)
 templehookButton.Size = UDim2.new(0, 213, 0, 16)
 templehookButton.Font = Enum.Font.DenkOne
-templehookButton.Text = "Hub - Templehook Beta.lua"
+templehookButton.Text = "Templehook Beta.lua"
 templehookButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 templehookButton.TextSize = 14.000
 
@@ -419,7 +419,7 @@ autojjsButton.BorderColor3 = Color3.fromRGB(85, 255, 255)
 autojjsButton.Position = UDim2.new(-0.00375581114, 0, 0.0670852065, 0)
 autojjsButton.Size = UDim2.new(0, 213, 0, 16)
 autojjsButton.Font = Enum.Font.DenkOne
-autojjsButton.Text = "Bypass(ante-kick)"
+autojjsButton.Text = "Bypass(ante-kick)Beta - Risco"
 autojjsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 autojjsButton.TextSize = 14.000
 
@@ -479,7 +479,7 @@ HubtrollebButton.BorderColor3 = Color3.fromRGB(85, 255, 255)
 HubtrollebButton.Position = UDim2.new(-0.00375581114, 0, 0.282532364, 0)
 HubtrollebButton.Size = UDim2.new(0, 213, 0, 16)
 HubtrollebButton.Font = Enum.Font.DenkOne
-HubtrollebButton.Text = "Hub Troll EB  - Mapa @OMNICHAVE"
+HubtrollebButton.Text = "Hub Troll EB - Mapa @OMNICHAVE"
 HubtrollebButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 HubtrollebButton.TextSize = 14.000
 
@@ -510,7 +510,7 @@ Killallacs2Button.BorderColor3 = Color3.fromRGB(85, 255, 255)
 Killallacs2Button.Position = UDim2.new(-0.00375581114, 0, 0.506109595, 0)
 Killallacs2Button.Size = UDim2.new(0, 213, 0, 16)
 Killallacs2Button.Font = Enum.Font.DenkOne
-Killallacs2Button.Text = "Matar todos 1 - Risco"
+Killallacs2Button.Text = "Matar todos - Risco"
 Killallacs2Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 Killallacs2Button.TextSize = 14.000
 
@@ -545,7 +545,7 @@ Crashacs1Button.BorderColor3 = Color3.fromRGB(85, 255, 255)
 Crashacs1Button.Position = UDim2.new(1.11361516, 0, 0.270337224, 0)
 Crashacs1Button.Size = UDim2.new(0, 213, 0, 16)
 Crashacs1Button.Font = Enum.Font.DenkOne
-Crashacs1Button.Text = "Crashar Geral 2.0"
+Crashacs1Button.Text = "Crashar Geral 1.7.5(!)"
 Crashacs1Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 Crashacs1Button.TextSize = 14.000
 
@@ -556,7 +556,7 @@ KillallButtonacs1Button.BorderColor3 = Color3.fromRGB(85, 255, 255)
 KillallButtonacs1Button.Position = UDim2.new(1.11361516, 0, 0.176841259, 0)
 KillallButtonacs1Button.Size = UDim2.new(0, 213, 0, 16)
 KillallButtonacs1Button.Font = Enum.Font.DenkOne
-KillallButtonacs1Button.Text = "Matar Todos 2 - Risco"
+KillallButtonacs1Button.Text = "Banir/Kick Geral 1.7.5 - Risco(!)"
 KillallButtonacs1Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 KillallButtonacs1Button.TextSize = 14.000
 
@@ -567,7 +567,7 @@ AlterarNumberValueacs2Button.BorderColor3 = Color3.fromRGB(85, 255, 255)
 AlterarNumberValueacs2Button.Position = UDim2.new(-0.00375580834, 0, 0.697166443, 0)
 AlterarNumberValueacs2Button.Size = UDim2.new(0, 213, 0, 16)
 AlterarNumberValueacs2Button.Font = Enum.Font.DenkOne
-AlterarNumberValueacs2Button.Text = "Alterar Number Value"
+AlterarNumberValueacs2Button.Text = "Puxar Money Beta - Risco"
 AlterarNumberValueacs2Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 AlterarNumberValueacs2Button.TextSize = 14.000
 
@@ -589,7 +589,7 @@ Explodeacs1Button.BorderColor3 = Color3.fromRGB(85, 255, 255)
 Explodeacs1Button.Position = UDim2.new(1.11361516, 0, 0.363833129, 0)
 Explodeacs1Button.Size = UDim2.new(0, 213, 0, 16)
 Explodeacs1Button.Font = Enum.Font.DenkOne
-Explodeacs1Button.Text = "Explodir Geral"
+Explodeacs1Button.Text = "Explodir Geral(!)"
 Explodeacs1Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 Explodeacs1Button.TextSize = 14.000
 
@@ -1331,6 +1331,7 @@ local function AGEGZPL_fake_script() -- AbasFarm.LocalScript
 	
 	Button.MouseButton1Down:Connect(function()
 		Button.BackgroundColor3 = (Button.Visible and Color3.fromRGB(38, 112, 112)) or Color3.fromRGB(72, 72, 72)
+
 --// Variables
 
 local Players = game:GetService("Players")
@@ -1364,7 +1365,7 @@ end)
 if getgenv().SendNotifications == true then
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Pedroxz Delevoper",
-        Text = "Anti-Kick Script Carregado",
+        Text = "Anti-Kick Script Carregado(Caso for kickado e normal porque o jogo tem ante cheater)",
         Icon = "rbxassetid://6238537240",
         Duration = 5,
     })
