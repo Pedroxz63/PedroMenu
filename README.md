@@ -1,4 +1,4 @@
---Script do Pedroxz Menu
+--Script do Pedroxz Menu o mais brabo
 --Codigos FREE
 --Para voces mobile e so copiar tudo e colar no seu exploit 
 
