@@ -178,7 +178,7 @@ TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(0.260092437, 0, 0.141420126, 0)
 TextLabel.Size = UDim2.new(0, 233, 0, 21)
 TextLabel.Font = Enum.Font.DenkOne
-TextLabel.Text = "Pedroxz Menu RP 3.0"
+TextLabel.Text = "Pedroxz Menu Cheater 5.0 - Atualizado"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -229,7 +229,7 @@ AimbotTXT.BackgroundTransparency = 1.000
 AimbotTXT.Position = UDim2.new(1.17045426, 0, 0.0730613098, 0)
 AimbotTXT.Size = UDim2.new(0, 55, 0, 14)
 AimbotTXT.Font = Enum.Font.DenkOne
-AimbotTXT.Text = "Aimbot Bug"
+AimbotTXT.Text = "MiraFOV(!)"
 AimbotTXT.TextColor3 = Color3.fromRGB(255, 255, 255)
 AimbotTXT.TextScaled = true
 AimbotTXT.TextSize = 14.000
@@ -355,7 +355,7 @@ OrcaButton.BorderColor3 = Color3.fromRGB(85, 255, 255)
 OrcaButton.Position = UDim2.new(-0.00375581114, 0, 0.0670852065, 0)
 OrcaButton.Size = UDim2.new(0, 213, 0, 16)
 OrcaButton.Font = Enum.Font.DenkOne
-OrcaButton.Text = "Orca"
+OrcaButton.Text = "Btools - Sem risco"
 OrcaButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 OrcaButton.TextSize = 14.000
 
@@ -366,7 +366,7 @@ InfiniteYieldButton.BorderColor3 = Color3.fromRGB(85, 255, 255)
 InfiniteYieldButton.Position = UDim2.new(-0.00375581114, 0, 0.176841304, 0)
 InfiniteYieldButton.Size = UDim2.new(0, 213, 0, 16)
 InfiniteYieldButton.Font = Enum.Font.DenkOne
-InfiniteYieldButton.Text = "infinite yield.lua "
+InfiniteYieldButton.Text = "Yield.lua "
 InfiniteYieldButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 InfiniteYieldButton.TextSize = 14.000
 
@@ -510,7 +510,7 @@ Killallacs2Button.BorderColor3 = Color3.fromRGB(85, 255, 255)
 Killallacs2Button.Position = UDim2.new(-0.00375581114, 0, 0.506109595, 0)
 Killallacs2Button.Size = UDim2.new(0, 213, 0, 16)
 Killallacs2Button.Font = Enum.Font.DenkOne
-Killallacs2Button.Text = "Matar todos - Risco"
+Killallacs2Button.Text = "Matar Geral(!)"
 Killallacs2Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 Killallacs2Button.TextSize = 14.000
 
@@ -521,7 +521,7 @@ Crashacs2Button.BorderColor3 = Color3.fromRGB(85, 255, 255)
 Crashacs2Button.Position = UDim2.new(-0.00375581114, 0, 0.59960556, 0)
 Crashacs2Button.Size = UDim2.new(0, 213, 0, 16)
 Crashacs2Button.Font = Enum.Font.DenkOne
-Crashacs2Button.Text = "Crashar Geral 3.0"
+Crashacs2Button.Text = "Crashar Geral 3.0(!)"
 Crashacs2Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 Crashacs2Button.TextSize = 14.000
 
@@ -556,7 +556,7 @@ KillallButtonacs1Button.BorderColor3 = Color3.fromRGB(85, 255, 255)
 KillallButtonacs1Button.Position = UDim2.new(1.11361516, 0, 0.176841259, 0)
 KillallButtonacs1Button.Size = UDim2.new(0, 213, 0, 16)
 KillallButtonacs1Button.Font = Enum.Font.DenkOne
-KillallButtonacs1Button.Text = "Banir/Kick Geral 1.7.5 - Risco(!)"
+KillallButtonacs1Button.Text = "Banir Geral(Metodo) 1.7.5 - Risco(!)"
 KillallButtonacs1Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 KillallButtonacs1Button.TextSize = 14.000
 
@@ -567,7 +567,7 @@ AlterarNumberValueacs2Button.BorderColor3 = Color3.fromRGB(85, 255, 255)
 AlterarNumberValueacs2Button.Position = UDim2.new(-0.00375580834, 0, 0.697166443, 0)
 AlterarNumberValueacs2Button.Size = UDim2.new(0, 213, 0, 16)
 AlterarNumberValueacs2Button.Font = Enum.Font.DenkOne
-AlterarNumberValueacs2Button.Text = "Puxar Money Beta - Risco"
+AlterarNumberValueacs2Button.Text = "Puxar Dinheiro(BETA) - Risco"
 AlterarNumberValueacs2Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 AlterarNumberValueacs2Button.TextSize = 14.000
 
@@ -578,7 +578,7 @@ Construiracs2Button.BorderColor3 = Color3.fromRGB(85, 255, 255)
 Construiracs2Button.Position = UDim2.new(-0.00375580834, 0, 0.798792481, 0)
 Construiracs2Button.Size = UDim2.new(0, 213, 0, 16)
 Construiracs2Button.Font = Enum.Font.DenkOne
-Construiracs2Button.Text = "Construir"
+Construiracs2Button.Text = "Construir Em Tudo(!)"
 Construiracs2Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 Construiracs2Button.TextSize = 14.000
 
@@ -1291,7 +1291,58 @@ local function DHPEQI_fake_script() -- AbasPlayers.LocalScript
 	Button.MouseButton1Down:Connect(function()
 		Button.BackgroundColor3 = (Button.Visible and Color3.fromRGB(38, 112, 112)) or Color3.fromRGB(72, 72, 72)
 		
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua'))()
+		local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+ 
+ -- Objects
+ 
+local ScreenGui = Instance.new("ScreenGui")
+local TextButton = Instance.new("TextButton")
+local On = Instance.new("StringValue")
+ 
+-- Properties
+ 
+ScreenGui.Parent = player.PlayerGui
+ 
+TextButton.Parent = ScreenGui
+TextButton.BackgroundColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0, 0, 0.455743879, 0)
+TextButton.Size = UDim2.new(0, 186, 0, 35)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Clique para Ativar Btools(PedroxzMenu)"
+TextButton.TextColor3 = Color3.new(0.27451, 0.27451, 0.27451)
+TextButton.TextScaled = true
+TextButton.TextSize = 14
+TextButton.TextWrapped = true
+ 
+ 
+On.Parent = TextButton
+On.Value = "Off"
+ 
+-- Scripts 
+ 
+TextButton.MouseButton1Up:Connect(function()
+	if On.Value == "Off" then
+		On.Value = "On"
+		TextButton.Text = "Btools (On)"
+	else
+		On.Value = "Off"
+		TextButton.Text = "Btools (Off)"
+	end
+end)
+ 
+mouse.Button1Up:Connect(function()
+	if On.Value == "Off" then
+		print('btools off')
+	else
+		if mouse.Target.Locked == true then
+			mouse.Target:Destroy()
+		else
+			mouse.Target:Destroy()
+		end
+	end
+end)
 		
 	end)
 	
