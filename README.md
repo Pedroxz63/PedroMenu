@@ -178,7 +178,7 @@ TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(0.260092437, 0, 0.141420126, 0)
 TextLabel.Size = UDim2.new(0, 233, 0, 21)
 TextLabel.Font = Enum.Font.DenkOne
-TextLabel.Text = "Pedroxz Menu Cheater 5.0 - Atualizado"
+TextLabel.Text = "Pedroxz Menu RP(BETA) - V1"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -355,7 +355,7 @@ OrcaButton.BorderColor3 = Color3.fromRGB(85, 255, 255)
 OrcaButton.Position = UDim2.new(-0.00375581114, 0, 0.0670852065, 0)
 OrcaButton.Size = UDim2.new(0, 213, 0, 16)
 OrcaButton.Font = Enum.Font.DenkOne
-OrcaButton.Text = "Btools - Sem risco"
+OrcaButton.Text = "HUB Com scripts(Novo)"
 OrcaButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 OrcaButton.TextSize = 14.000
 
@@ -1289,63 +1289,10 @@ local function DHPEQI_fake_script() -- AbasPlayers.LocalScript
 	local Button = script.Parent.OrcaButton
 	
 	Button.MouseButton1Down:Connect(function()
-		Button.BackgroundColor3 = (Button.Visible and Color3.fromRGB(38, 112, 112)) or Color3.fromRGB(72, 72, 72)
-		
-		local player = game.Players.LocalPlayer
-local mouse = player:GetMouse()
- 
- -- Objects
- 
-local ScreenGui = Instance.new("ScreenGui")
-local TextButton = Instance.new("TextButton")
-local On = Instance.new("StringValue")
- 
--- Properties
- 
-ScreenGui.Parent = player.PlayerGui
- 
-TextButton.Parent = ScreenGui
-TextButton.BackgroundColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-TextButton.BorderSizePixel = 0
-TextButton.Position = UDim2.new(0, 0, 0.455743879, 0)
-TextButton.Size = UDim2.new(0, 186, 0, 35)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "Clique para Ativar Btools(PedroxzMenu)"
-TextButton.TextColor3 = Color3.new(0.27451, 0.27451, 0.27451)
-TextButton.TextScaled = true
-TextButton.TextSize = 14
-TextButton.TextWrapped = true
- 
- 
-On.Parent = TextButton
-On.Value = "Off"
- 
--- Scripts 
- 
-TextButton.MouseButton1Up:Connect(function()
-	if On.Value == "Off" then
-		On.Value = "On"
-		TextButton.Text = "Btools (On)"
-	else
-		On.Value = "Off"
-		TextButton.Text = "Btools (Off)"
-	end
-end)
- 
-mouse.Button1Up:Connect(function()
-	if On.Value == "Off" then
-		print('btools off')
-	else
-		if mouse.Target.Locked == true then
-			mouse.Target:Destroy()
-		else
-			mouse.Target:Destroy()
-		end
-	end
-end)
-		
+		Button.BackgroundColor3 = (Button.Visible and Color3.fromRGB(38, 112, 112)) or Color3.fromRGB(72, 72, 72)		
+
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
 	end)
-	
 	
 	local Button = script.Parent.UnnamedESPButton
 	
